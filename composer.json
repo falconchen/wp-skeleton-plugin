@@ -1,41 +1,20 @@
 {
-    "name": "ptahdunbar/wp-skeleton-plugin",
-    "homepage": "https://github.com/ptahdunbar/wp-skeleton-plugin",
-    "description": "A walking skeleton WordPress plugin. -_O",
-    "license": "GPL-2.0+",
-
-    "type": "wordpress-plugin",
-
-    "keywords": [
-        "WordPress", "plugins", "themes", "php", "skeleton"
-    ],
-
+    "name": "falconchen/sb-starberry",
+    "description": "starberry for sb",
+    "require": {
+        "symfony/dotenv": "^5.0"
+    },
+    "license": "private",
     "authors": [
         {
-            "name": "Ptah Dunbar",
-            "email": "yarr@piratedunbar.com"
+            "name": "falcon",
+            "email": "falcon_chen@qq.com"
         }
     ],
-
-    "require": {
-        "php": ">=5.4"
-    },
-
-    "require-dev": {
-        "phing/phing": "dev-master",
-        "phpunit/phpunit": "3.7.*",
-        "phpunit/dbunit": "1.2.*@dev",
-        "phpunit/phpunit-selenium" : "*",
-        "whatthejeff/nyancat-phpunit-resultprinter": "~1.1",
-        "whatthejeff/fab-phpunit-resultprinter": "~1.1",
-        "behat/behat": "2.4.*",
-        "behat/mink": "1.4.*",
-        "behat/mink-extension": "*",
-        "behat/mink-goutte-driver": "*",
-        "behat/mink-selenium2-driver": "*",
-        "behat/mink-zombie-driver": "*",
-        "facebook/webdriver": "*",
-        "respect/validation" : "dev-master",
-        "satooshi/php-coveralls": "dev-master"
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {           
+            "SB\\":"sb"
+        }
     }
 }

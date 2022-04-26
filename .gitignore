@@ -16,7 +16,7 @@ nbproject
 varrgrant.json
 
 # Composer
-vendor
+#vendor
 
 # Project files
 tests/wp-tests-config.php
