@@ -15,7 +15,7 @@ class Common
 
     public static function  object2array($object)
     {
-        return @json_decode(@json_encode($object), 1);
+        return json_decode(json_encode($object), 1);
     }
 
     public static function allowed_classification()
